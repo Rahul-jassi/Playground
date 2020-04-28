@@ -18,6 +18,7 @@ const dataBuffer=fs.readFileSync('1-json.json')
  const dataJSON= dataBuffer.toString()
  const user=JSON.parse(dataJSON)
 
+
  user.name="jassi"
  user.age =21
  const userJSON=JSON.stringify(user)
